@@ -1,0 +1,25 @@
+{
+  "name": "ntu-course-planner-web",
+  "version": "1.0.0",
+  "description": "Web version of NTU course planner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koallen/ntu-course-planner-web.git"
+  },
+  "keywords": [
+    "timetable"
+  ],
+  "author": "Liu Siyuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koallen/ntu-course-planner-web/issues"
+  },
+  "homepage": "https://github.com/koallen/ntu-course-planner-web#readme",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}

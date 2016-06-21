@@ -1,0 +1,26 @@
+{
+  "name": "ntu-course-planner-web",
+  "description": "Web version of NTU course planner",
+  "main": "index.js",
+  "authors": [
+    "Liu Siyuan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "timetable"
+  ],
+  "homepage": "https://github.com/koallen/ntu-course-planner-web",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.7"
+  },
+  "devDependencies": {
+    "angular": "1.5.7"
+  }
+}
