@@ -1,2 +1,2 @@
-# ntu-course-planner-web
+# NTU course planner web
 Web version of NTU course planner.
