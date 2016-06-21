@@ -24,7 +24,20 @@
     </div>
   </nav>
 
-  <div class="timetable"></div>
+  <div class="timetable container" ng-controller="TimetableCtrl">
+    <table class="centered">
+      <thead>
+        <tr>
+          <th ng-repeat="day in days">{{ day }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="slot in slots">
+          <td ng-repeat="slot in slots">{{ slot }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
   <footer class="page-footer orange">
     <div class="container">
@@ -57,7 +70,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
@@ -68,7 +81,7 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="../bower_components/angular/angular.js"></script>
-  <script src="js/timetable.js"></script>
+  <script src="js/index.js"></script>
 
-  </body>
+</body>
 </html>
