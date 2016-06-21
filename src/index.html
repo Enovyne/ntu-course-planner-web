@@ -14,17 +14,19 @@
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">NTU Course Planner</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="https://github.com/koallen/ntu-course-planner-web">GitHub</a></li>
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
   <div class="timetable container" ng-controller="TimetableCtrl">
+    <div style="padding: 10px">
+      <a href="#" class="dropdown-button btn" data-activates="choices">Choices</a>
+    </div>
+    <ul id="choices" class="dropdown-content">
+      <li><a href="#">One</a></li>
+      <li><a href="#">Two</a></li>
+    </ul>
     <table class="centered">
       <thead>
         <tr>
