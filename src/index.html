@@ -27,15 +27,17 @@
       <li><a href="#">One</a></li>
       <li><a href="#">Two</a></li>
     </ul>
-    <table class="centered">
+    <table class="centered bordered">
       <thead>
         <tr>
+          <th></th>
           <th ng-repeat="day in days">{{ day }}</th>
         </tr>
       </thead>
       <tbody>
         <tr ng-repeat="slot in slots">
-          <td ng-repeat="slot in slots">{{ slot }}</td>
+          <td ng-if="$even" rowspan="2"><div>{{ slots[$index+1] }}</div></td>
+          <td ng-repeat="day in days"></td>
         </tr>
       </tbody>
     </table>
