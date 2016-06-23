@@ -1,3 +1,5 @@
 angular.module('plannerApp', [
-  'timetable'
+  'ngRoute',
+  'timetable',
+  'courseSelection'
 ]);

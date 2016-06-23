@@ -24,10 +24,11 @@
       <a href="#" class="dropdown-button btn" data-activates="choices">Choices</a>
     </div>
     <ul id="choices" class="dropdown-content">
-      <li><a href="#">One</a></li>
-      <li><a href="#">Two</a></li>
+      <li><a href="#!/course-selection">Select</a></li>
+      <li><a href="#!/timetable">Timetable</a></li>
     </ul>
-    <timetable></timetable>
+    <!-- angular view -->
+    <div ng-view></div>
   </div>
 
   <footer class="page-footer orange">
@@ -71,9 +72,13 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
   <script src="timetable/timetable.module.js"></script>
   <script src="timetable/timetable.component.js"></script>
+  <script src="course-selection/course-selection.module.js"></script>
+  <script src="course-selection/course-selection.component.js"></script>
 
 </body>
 </html>
